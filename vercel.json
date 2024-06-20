@@ -1,0 +1,36 @@
+{
+    "crons": [
+      {
+        "path": "/api/cron/reset_imsg_limits",
+        "schedule": "0 20 * * *"
+      },
+      {
+        "path": "/api/cron/check_lines",
+        "schedule": "* * * * *"
+      },
+      {
+        "path": "/api/cron/online_report",
+        "schedule": "30 12 * * *"
+      },
+      {
+        "path": "/api/cron/unresponded_msgs",
+        "schedule": "0 * * * *"
+      },
+      {
+        "path": "/api/cron/unresponded_msgs",
+        "schedule": "30 * * * *"
+      },
+      {
+        "path": "/api/cron/total_msgs",
+        "schedule": "30 12 * * *"
+      },
+      {
+        "path": "/api/cron/total_cost",
+        "schedule": "30 12 * * *"
+      },
+      {
+        "path": "/api/cron/mentorme_report",
+        "schedule": "30 12 * * *"
+      }
+    ]
+}
